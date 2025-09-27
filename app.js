@@ -8,6 +8,8 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 
+//new comment
+
 app.set('view engine', 'pug');
 
 const mainRoutes = require('./routes');
